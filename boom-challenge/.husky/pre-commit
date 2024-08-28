@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. "$(dirname "$0")/_/husky.sh"
+cd ./boom-challenge && npm test -- --watchAll=false
+npx lint-staged
