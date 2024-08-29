@@ -1,0 +1,12 @@
+.game-container-header {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
