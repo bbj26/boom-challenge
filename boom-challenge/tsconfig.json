@@ -20,14 +20,5 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./src",
-    "paths": {
-      "@components/*": ["components/*"],
-      "@hooks/*": ["hooks/*"],
-      "@utils/*": ["utils/*"],
-      "@store/*": ["store/*"]
-    }
-  },
-  "include": [
-    "src"
-  ]
+  }
 }
