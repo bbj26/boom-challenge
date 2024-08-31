@@ -1,5 +1,7 @@
 #!/bin/sh
 
 . "$(dirname "$0")/_/husky.sh"
-cd ./boom-challenge && npm test -- --watchAll=false
+cd ./boom-challenge
+npm test -- --watchAll=false
+npm run cypress:run
 npx lint-staged
