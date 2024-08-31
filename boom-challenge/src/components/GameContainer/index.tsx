@@ -37,6 +37,10 @@ const GameContainer = () => {
           </div>
         </section>
       </header>
+      <p>
+        Rules: The player wins when flipping 3 consecutive smileys 🎉 The player
+        looses when flipping 2 consecutive bombs
+      </p>
       <Board />
       <GameOverModal
         isOpen={isGameOver}
