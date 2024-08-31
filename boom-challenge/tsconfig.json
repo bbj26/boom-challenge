@@ -19,6 +19,12 @@
   },
   "exclude": [
     "node_modules",
-    "**/*.cy.tsx"
-  ]
+     "src/setupTests.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.jsx",
+    "src/**/*.js"
+  ],
 }
