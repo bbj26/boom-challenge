@@ -18,7 +18,7 @@ const Board: React.FC = () => {
 
   return (
     <main>
-      <div className="board">
+      <div className="board" data-testid="board">
         {board.map((tile, index) => (
           <Tile
             key={index}
