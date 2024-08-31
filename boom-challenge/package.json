@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
-    "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^15.0.6",
     "@testing-library/user-event": "^13.5.0",
     "@types/node": "^16.18.106",
@@ -25,7 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --no-watchman --verbose",
     "eject": "react-scripts eject",
-    "prepare": "cd .. && husky install boom-challenge/.husky"
+    "prepare": "cd .. && husky install boom-challenge/.husky",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -52,10 +53,12 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.5.0",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "cypress": "^13.14.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard-with-typescript": "^43.0.1",

@@ -13,6 +13,6 @@ test('renders title: Boom Challenge', () => {
       <App />
     </Provider>,
   );
-  const linkElement = screen.getByText(/Boom Challenge/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = screen.getByText(/Boom Challenge/i);
+  expect(titleElement).toBeInTheDocument();
 });
